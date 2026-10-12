@@ -1,2 +1,2 @@
-# Commonspace-Collective.github.io
+# Commonspace-Collective
 A shared space to build what matters.
