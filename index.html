@@ -1,98 +1,314 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#0b1020">
-  <meta name="description" content="Commonspace Collective — a shared space to build what matters.">
-  <title>Commonspace Collective</title>
+  <meta name="description" content="Commonspace Collective — a shared space to build what matters. Explore ideas, create projects, and collaborate in the open.">
+  <meta property="og:title" content="Commonspace Collective">
+  <meta property="og:description" content="A shared space to build what matters.">
+  <meta property="og:type" content="website">
+  <title>Commonspace Collective — Build What Matters</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
   <header class="navbar">
-    <a class="brand" href="#home">commonspace<span>.</span></a>
-    <nav>
+    <a class="brand" href="#home" aria-label="Commonspace Collective home">
+      commonspace<span>.</span>
+    </a>
+
+    <nav aria-label="Main navigation">
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
+      <a href="#founder">Founder</a>
       <a href="#join">Join us</a>
     </nav>
+
+    <a class="nav-cta" href="https://github.com/Commonspace-Collective">
+      GitHub <span aria-hidden="true">↗</span>
+    </a>
   </header>
 
-  <main>
+  <main id="main">
+    <!-- HERO -->
     <section class="hero" id="home">
-      <p class="eyebrow">AN OPEN COMMUNITY FOR IDEAS</p>
-      <h1>Good ideas grow<br>when we <span>build together.</span></h1>
-      <p class="intro">
-        A shared space for curious minds to create, experiment,
-        and make things that matter — from code to creativity.
-      </p>
-      <div class="actions">
-        <a class="button primary" href="#projects">Explore projects ↗</a>
-        <a class="button secondary"
-           href="https://github.com/Commonspace-Collective">
-          Visit our GitHub
-        </a>
+      <div class="hero-orb orb-one" aria-hidden="true"></div>
+      <div class="hero-orb orb-two" aria-hidden="true"></div>
+
+      <div class="hero-content">
+        <div class="status-label">
+          <span class="status-dot"></span>
+          AN OPEN SPACE FOR IDEAS
+        </div>
+
+        <h1>
+          Good ideas grow<br>
+          when we <span class="gradient-text">build together.</span>
+        </h1>
+
+        <p class="hero-description">
+          A shared space for curious minds to create, experiment,
+          and make things that matter — from code to creativity.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button primary"
+             href="https://github.com/Commonspace-Collective?tab=repositories">
+            Explore projects <span aria-hidden="true">↗</span>
+          </a>
+
+          <a class="button secondary" href="#about">
+            Discover Commonspace
+          </a>
+        </div>
+
+        <div class="hero-note">
+          <span class="note-line"></span>
+          A shared space to build what matters.
+          <span class="note-line"></span>
+        </div>
       </div>
-      <div class="hero-note">
-        <span class="dot"></span>
-        Built in the open. Better together.
-      </div>
+
+      <a class="scroll-cue" href="#about" aria-label="Scroll to About">
+        <span aria-hidden="true">↓</span>
+      </a>
     </section>
 
-    <section class="section" id="about">
-      <p class="eyebrow">WHY COMMONSPACE?</p>
-      <h2>A place to turn curiosity into something real.</h2>
-      <div class="cards">
-        <article class="card">
-          <span class="card-icon">⌘</span>
+    <!-- ABOUT -->
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">01 / THE IDEA</p>
+        <h2>Make space for<br><span class="gradient-text">what's possible.</span></h2>
+        <p class="section-description">
+          Commonspace Collective is a growing community concept built
+          around a simple idea: when people share knowledge, creativity,
+          and effort, better things can happen.
+        </p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <div class="feature-icon purple-icon" aria-hidden="true">⌘</div>
+          <p class="card-index">01 — TECHNOLOGY</p>
           <h3>Build with code</h3>
-          <p>Make websites, tools, apps, experiments, and open-source projects.</p>
+          <p>
+            Explore websites, apps, useful tools, experiments,
+            and open-source software.
+          </p>
         </article>
-        <article class="card">
-          <span class="card-icon">✳</span>
+
+        <article class="feature-card">
+          <div class="feature-icon cyan-icon" aria-hidden="true">✳</div>
+          <p class="card-index">02 — CREATIVITY</p>
           <h3>Create freely</h3>
-          <p>Explore design, writing, art, research, and unexpected ideas.</p>
+          <p>
+            Bring design, writing, art, research, and ideas
+            that don't fit into just one category.
+          </p>
         </article>
-        <article class="card">
-          <span class="card-icon">↗</span>
+
+        <article class="feature-card">
+          <div class="feature-icon pink-icon" aria-hidden="true">↗</div>
+          <p class="card-index">03 — COMMUNITY</p>
           <h3>Grow together</h3>
-          <p>Share what you know, learn from others, and improve ideas as a team.</p>
+          <p>
+            Share what you know, learn something new,
+            and help good ideas become better.
+          </p>
         </article>
       </div>
     </section>
 
-    <section class="section projects" id="projects">
-      <p class="eyebrow">THE COMMUNITY WORKSHOP</p>
-      <h2>Ideas become projects here.</h2>
-      <p class="section-copy">
-        Explore our repositories, discover what people are making,
-        or bring an idea of your own.
-      </p>
-      <a class="button primary"
-         href="https://github.com/Commonspace-Collective?tab=repositories">
-        Explore repositories ↗
-      </a>
-      <p class="small-note">More community projects coming soon.</p>
+    <!-- PROJECTS -->
+    <section class="section projects-section" id="projects">
+      <div class="section-heading centered">
+        <p class="eyebrow">02 / THE WORKSHOP</p>
+        <h2>From <span class="gradient-text">idea</span> to impact.</h2>
+        <p class="section-description">
+          Every meaningful project begins somewhere. Explore our
+          repositories or bring an idea you'd love to work on.
+        </p>
+      </div>
+
+      <div class="project-panel">
+        <div class="project-panel-top">
+          <span class="panel-label">
+            <span class="status-dot"></span>
+            THE COMMUNITY WORKSHOP
+          </span>
+          <span class="panel-symbol" aria-hidden="true">✳</span>
+        </div>
+
+        <div class="project-panel-body">
+          <p class="eyebrow">YOUR NEXT IDEA STARTS HERE</p>
+          <h3>What should we<br>build together?</h3>
+          <p>
+            Have a project in mind? Suggest a tool, creative experiment,
+            community resource, or anything worth exploring.
+          </p>
+
+          <div class="project-actions">
+            <a class="button primary"
+               href="https://github.com/Commonspace-Collective?tab=repositories">
+              Browse repositories <span aria-hidden="true">↗</span>
+            </a>
+
+            <a class="button secondary"
+               href="https://github.com/Commonspace-Collective/Commonspace-Collective.github.io/issues/new?title=Project%20idea">
+              Submit a project idea <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+
+          <p class="small-note">
+            Project proposals are reviewed before being accepted.
+          </p>
+        </div>
+      </div>
     </section>
 
-    <section class="join" id="join">
-      <p class="eyebrow">YOUR IDEA BELONGS HERE</p>
-      <h2>Make something<br>with us.</h2>
-      <p>You don't need to know everything. Just bring your curiosity.</p>
-      <a class="button primary"
-         href="https://github.com/Commonspace-Collective">
-        Find us on GitHub ↗
-      </a>
+    <!-- VALUES -->
+    <section class="section values-section">
+      <div class="section-heading">
+        <p class="eyebrow">03 / WHAT WE BELIEVE</p>
+        <h2>Open minds.<br><span class="gradient-text">Shared progress.</span></h2>
+      </div>
+
+      <div class="values-list">
+        <article class="value-row">
+          <span class="value-number">01</span>
+          <div>
+            <h3>Curiosity over perfection</h3>
+            <p>You don't need all the answers to start building.</p>
+          </div>
+          <span class="value-arrow" aria-hidden="true">↗</span>
+        </article>
+
+        <article class="value-row">
+          <span class="value-number">02</span>
+          <div>
+            <h3>Collaboration over competition</h3>
+            <p>Different perspectives can make a good idea even better.</p>
+          </div>
+          <span class="value-arrow" aria-hidden="true">↗</span>
+        </article>
+
+        <article class="value-row">
+          <span class="value-number">03</span>
+          <div>
+            <h3>Progress over hype</h3>
+            <p>Make useful things, learn openly, and keep improving.</p>
+          </div>
+          <span class="value-arrow" aria-hidden="true">↗</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- FOUNDER -->
+    <section class="section founder-section" id="founder">
+      <div class="founder-card">
+        <div class="founder-copy">
+          <p class="eyebrow">04 / THE BEGINNING</p>
+          <h2>One idea.<br><span class="gradient-text">Room for everyone.</span></h2>
+
+          <p>
+            Commonspace Collective was started by
+            <strong>Naksh Sunil Humbe</strong> with a simple vision:
+            create a space where people can explore ideas, share skills,
+            and build meaningful projects together.
+          </p>
+
+          <p>
+            It's a work in progress, and that's the point.
+            The best version of this space will be shaped by the people
+            who choose to contribute to it.
+          </p>
+
+          <a class="button secondary"
+             href="https://github.com/Commonspace-Collective">
+            Meet us on GitHub <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+
+        <div class="founder-art" aria-hidden="true">
+          <div class="founder-ring ring-one"></div>
+          <div class="founder-ring ring-two"></div>
+          <div class="founder-letter">C</div>
+          <div class="founder-art-caption">IDEAS → ACTION</div>
+          <span class="floating-star star-one">✳</span>
+          <span class="floating-star star-two">✦</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- JOIN -->
+    <section class="section join-section" id="join">
+      <div class="join-card">
+        <p class="eyebrow">05 / YOUR INVITATION</p>
+        <h2>There's room<br>for <span class="gradient-text">your ideas.</span></h2>
+
+        <p class="join-description">
+          You don't need to be an expert. Bring a project idea,
+          share a skill, improve something, or help someone get started.
+        </p>
+
+        <div class="contributor-steps">
+          <div class="contributor-step">
+            <span>01</span>
+            <p>Explore the repositories</p>
+          </div>
+          <div class="contributor-step">
+            <span>02</span>
+            <p>Suggest an idea or improvement</p>
+          </div>
+          <div class="contributor-step">
+            <span>03</span>
+            <p>Collaborate and build together</p>
+          </div>
+        </div>
+
+        <div class="join-actions">
+          <a class="button primary"
+             href="https://github.com/Commonspace-Collective">
+            Join us on GitHub <span aria-hidden="true">↗</span>
+          </a>
+
+          <a class="button secondary"
+             href="https://github.com/Commonspace-Collective/Commonspace-Collective.github.io/issues/new?title=I%20want%20to%20contribute">
+            I want to contribute
+          </a>
+        </div>
+
+        <p class="small-note">
+          Start small. Stay curious. Build something meaningful.
+        </p>
+      </div>
     </section>
   </main>
 
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-main">
+      <div class="footer-brand">
+        <a class="brand" href="#home">commonspace<span>.</span></a>
+        <p>A shared space to build what matters.</p>
+      </div>
 
-<footer>
-  <a class="brand" href="#home">commonspace<span>.</span></a>
-  <p>A shared space to build what matters.</p>
-  <p>A collective made by Naksh Sunil Humbe.</p>
-  <p>© 2026 Commonspace Collective</p>
-</footer>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#founder">Founder</a>
+        <a href="https://github.com/Commonspace-Collective">GitHub ↗</a>
+      </div>
+    </div>
 
+    <div class="footer-bottom">
+      <p>A collective made by Naksh Sunil Humbe.</p>
+      <p>© <span id="year">2026</span> Commonspace Collective</p>
+    </div>
+  </footer>
 </body>
 </html>
