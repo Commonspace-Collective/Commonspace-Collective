@@ -1,96 +1,135 @@
-# ✦ Commonspace Collective
+# ✦ commonly
 
 ### A shared space to build what matters.
 
-A home for curious minds, creative thinkers, and aspiring builders to share ideas, explore technology, learn together, and create projects that make a difference.
+A community for curious minds, creative thinkers, and aspiring builders to **explore ideas, learn together, and create things that matter.**
 
-**Have an idea? There's room for it here.**
+Whether you're here to experiment with technology, collaborate on a project, share a new idea, or simply discover what's possible — there's a place for you here.
 
 <p align="center">
   <a href="https://commonspace-collective.github.io/Commonspace-Collective/">
-    <strong>🌐 Visit Our Website</strong>
+    <strong>🌐 Explore commonly</strong>
   </a>
-  &nbsp; · &nbsp;
+  &nbsp; ✦ &nbsp;
   <a href="https://commonspace-collective.github.io/commonspace-idea-garden/">
-    <strong>🌱 Explore Idea Garden</strong>
+    <strong>🌱 Visit the Idea Garden</strong>
   </a>
-  &nbsp; · &nbsp;
+  &nbsp; ✦ &nbsp;
   <a href="https://github.com/Commonspace-Collective">
-    <strong>💻 Browse Repositories</strong>
+    <strong>💻 Browse our projects</strong>
   </a>
 </p>
 
 ---
 
-## 🌌 What Is Commonspace?
+## 🌌 A space for ideas to become something more
 
-Commonspace Collective is a growing community built around a simple belief: **great ideas grow when people build together.**
+**commonly** is a growing, collaborative community built around one simple belief:
 
-It's a space where technology meets creativity, where beginners can learn alongside experienced builders, and where a small idea can become something meaningful through collaboration.
+> Great things happen when people have the space to imagine, experiment, and build together.
 
-We're interested in more than just code. We're interested in what people can imagine, learn, and create when they have a place to start.
+We're bringing together people with different interests, skills, and levels of experience. Some arrive with ambitious projects. Others arrive with questions, curiosity, or the beginning of an idea.
 
-## 🌱 Explore Our Spaces
+All of those are good places to start.
 
-| Space | What you'll find |
+This isn't just about writing code. It's about creating an environment where technology meets creativity, learning becomes collaborative, and ideas have room to grow.
+
+## 🪴 Explore the ecosystem
+
+| Space | What's inside |
 | --- | --- |
-| 🌐 **Main Website** | Discover Commonspace, our vision, and ways to get involved. |
-| 🌿 **Idea Garden** | Explore project concepts, creative inspiration, and possibilities worth building. |
-| 💻 **GitHub Repositories** | Browse our projects and discover opportunities to contribute. |
+| 🌐 **[The Website](https://commonspace-collective.github.io/Commonspace-Collective/)** | Discover our mission, values, and ways to get involved. |
+| 🌱 **[The Idea Garden](https://commonspace-collective.github.io/commonspace-idea-garden/)** | Discover concepts, explore possibilities, and find inspiration for your next project. |
+| 💻 **[GitHub Repositories](https://github.com/Commonspace-Collective)** | Explore our work, contribute to projects, and help build what's next. |
 
-## ✨ What Can You Do Here?
+Each space is part of the same bigger picture: making it easier to go from *“What if?”* to *“Let's build it.”*
 
-- 💡 **Share ideas** — Propose tools, projects, experiments, and community initiatives.
-- 🛠️ **Build projects** — Contribute code, fix bugs, and improve existing work.
-- 🎨 **Create freely** — Bring design, writing, art, research, and other creative skills.
-- 📚 **Learn openly** — Explore unfamiliar technologies and learn by doing.
-- 🤝 **Collaborate** — Share knowledge, ask questions, and help ideas grow.
+## ✨ What can you do here?
 
-You don't need to know everything before you begin. Curiosity is a perfectly good starting point.
+<details>
+  <summary>💡 Share an idea</summary>
 
-## 🚀 Want to Contribute?
+  Have an idea for a tool, a website, a creative experiment, or a community initiative? Share it, explain the problem it could solve, and invite others to help shape it.
+</details>
 
-We welcome contributions from people at different experience levels, including first-time contributors.
+<details>
+  <summary>🛠️ Build something together</summary>
 
-**Here's how to get started:**
+  Contribute code, improve an existing project, fix bugs, suggest features, or help turn an early concept into something people can use.
+</details>
 
-1. Explore our [GitHub repositories](https://github.com/Commonspace-Collective?tab=repositories).
-2. Visit the [Idea Garden](https://commonspace-collective.github.io/commonspace-idea-garden/) for inspiration.
-3. Have a project idea? [Submit your idea](https://github.com/Commonspace-Collective/commonspace-idea-garden/issues/new?template=idea.yml).
-4. New to open source? [Request a beginner-friendly task](https://github.com/Commonspace-Collective/commonspace-idea-garden/issues/new?template=beginner-task.yml).
-5. Before contributing, read our [Contributing Guide](CONTRIBUTING.md).
+<details>
+  <summary>🎨 Bring your creativity</summary>
 
-Not sure where to start? That's okay. Ask questions, explain what interests you, and we'll work toward finding a suitable starting point.
+  Design, writing, art, research, documentation, and thoughtful feedback are all valuable. Building something meaningful takes more than code.
+</details>
 
-## 🧭 Our Principles
+<details>
+  <summary>📚 Learn by doing</summary>
 
-- **Curiosity over perfection** — You can learn as you build.
-- **Collaboration over competition** — Different perspectives make ideas stronger.
-- **Progress over hype** — Focus on learning and creating useful things.
-- **Openness over gatekeeping** — Beginners deserve a welcoming place to begin.
-- **Creativity without unnecessary boundaries** — Good ideas can come from anywhere.
+  Explore unfamiliar tools, experiment with new technologies, ask questions, and learn through real projects. You don't need to have everything figured out before you begin.
+</details>
 
-## 🗺️ The Vision
+<details>
+  <summary>🤝 Find your people</summary>
 
-We're building Commonspace one step at a time.
+  Meet people who enjoy exploring possibilities, exchanging knowledge, solving problems, and helping each other make progress.
+</details>
 
-The goal is to create an evolving ecosystem where people can discover ideas, find collaborators, develop skills, and turn imagination into real projects.
+## 🚀 Your first steps
 
-There's no expectation that everything starts perfectly. What matters is that we keep learning, experimenting, and improving together.
+New to commonly or open source? Here's an easy way to get started.
 
-## 💜 Join the Collective
+1. **Explore** — Browse our [GitHub repositories](https://github.com/Commonspace-Collective?tab=repositories).
+2. **Get inspired** — Visit the [Idea Garden](https://commonspace-collective.github.io/commonspace-idea-garden/).
+3. **Bring an idea** — [Submit a project idea](https://github.com/Commonspace-Collective/commonspace-idea-garden/issues/new?template=idea.yml).
+4. **Find a starting point** — [Request a beginner-friendly task](https://github.com/Commonspace-Collective/commonspace-idea-garden/issues/new?template=beginner-task.yml).
+5. **Build with us** — Read our [Contributing Guide](CONTRIBUTING.md) before contributing.
 
-Whether you have a fully developed project, a half-formed idea, or simply the desire to learn something new, you're welcome to explore.
+Not sure where you fit in yet? That's completely fine. Start with what interests you, ask questions, and take things one step at a time.
 
-- 🌐 [Visit Commonspace Collective](https://commonspace-collective.github.io/Commonspace-Collective/)
-- 🌱 [Explore the Idea Garden](https://commonspace-collective.github.io/commonspace-idea-garden/)
-- 💡 [Share an Idea](https://github.com/Commonspace-Collective/commonspace-idea-garden/issues/new?template=idea.yml)
-- 🛠️ [Find a Beginner-Friendly Task](https://github.com/Commonspace-Collective/commonspace-idea-garden/issues/new?template=beginner-task.yml)
-- 📖 [Read CONTRIBUTING.md](CONTRIBUTING.md)
+## 🧭 What we believe in
+
+| Principle | What it means |
+| --- | --- |
+| 🌱 **Curiosity over perfection** | Learning and experimenting matter more than getting everything right on the first try. |
+| 🤝 **Collaboration over competition** | Different perspectives make ideas stronger. |
+| 🧩 **Progress over hype** | We value thoughtful work, useful projects, and steady improvement. |
+| 🔓 **Openness over gatekeeping** | Everyone deserves a welcoming opportunity to learn and contribute. |
+| 🎨 **Creativity without unnecessary boundaries** | Good ideas can come from anywhere and take many forms. |
+
+These aren't just words to put in a README. They're the principles we want to carry into the way we build, share, and work together.
+
+## 🗺️ The bigger picture
+
+We're building commonly one step at a time.
+
+Our vision is an evolving ecosystem where people can discover ideas, develop skills, find collaborators, and turn curiosity into real-world projects.
+
+Some projects will start small. Some will change direction. Some will teach us what to try next.
+
+That's part of the process.
+
+**The goal isn't to have everything figured out. It's to create the space and momentum to keep building.**
+
+## 💜 Be part of it
+
+You don't need a finished project, years of experience, or a perfect plan to get involved.
+
+Bring a question. Bring an idea. Bring a skill you'd like to develop. Or simply explore until something catches your attention.
+
+- 🌐 [Explore commonly](https://commonspace-collective.github.io/commonly/)
+- 🌱 [Discover the Idea Garden](https://commonspace-collective.github.io/commonly-idea-garden/)
+- 💡 [Share an idea](https://github.com/Commonspace-Collective/commonspace-idea-garden/issues/new?template=idea.yml)
+- 🛠️ [Find a beginner-friendly task](https://github.com/Commonspace-Collective/commonly-idea-garden/issues/new?template=beginner-task.yml)
+- 📖 [Read the Contributing Guide](CONTRIBUTING.md)
 
 ---
 
 <p align="center">
-  <strong>Commonspace Collective</strong><br>
+  <strong>✦ commonly</strong>
+  <br>
   <em>A shared space to build what matters.</em>
+  <br><br>
+  <sub>Imagine more. Learn together. Build what matters.</sub>
 </p>
